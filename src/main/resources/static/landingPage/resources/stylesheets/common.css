@@ -1,0 +1,424 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    text-shadow: 2px 4px 2px black;
+}
+
+html {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+body > .boarder {
+
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    left: 0.5%;
+    top: 0.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    border: 2px transparent solid;
+    border-radius: 15px;
+
+    background-image: none, linear-gradient(to right, #777777 0%, #666666 35%, white 40%, #555555 45%, #444444 50%, #333333 60%, black 65%, #333333 75%, grey 85%, white 100%);
+
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+body > .boarder > .box {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin: unset;
+    display: inline-block;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+body > .boarder > .box > .chapter {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60vw;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    margin: 0 0;
+    padding: 0 0;
+    position: relative;
+    transition-duration: 1s;
+    border: transparent 5px solid;
+    border-radius: 15px;
+
+    /*(to right, black 10%, #333333 100%)*/
+    background-image: linear-gradient(  135deg, #8e7aff 0%, #6857fe 100%), linear-gradient(to right, #999999 0%, white 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, #11111111 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-collapse: collapse;
+}
+
+body > .boarder > main > .chapter2 {
+    display: flex;
+    height: 100%;
+    width: 39vw;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin: 0 0;
+    padding: 0 0;
+    transition-duration: 1s;
+
+}
+
+
+body > .boarder > main > .first.chapter > .main-container {
+    display: flex;
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+body > .boarder > main > .first.chapter.button-click > .main-container {
+    display: none;
+}
+
+
+.title {
+    margin-top: 5rem;
+    margin-left: 5%;
+    font-size: 2rem;
+    text-shadow: none;
+
+}
+
+
+body > .boarder > main > .chapter2 > .contact-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6px;
+    width: 98.4%;
+    height: 60%;
+    border-bottom: 5px transparent solid;
+    border-radius: 9px 9px 15px 15px;
+
+
+    /*to right, black 10%, #333333 100%*/
+    background-image: linear-gradient(    to right, black 10%, #333333 100%
+    ), linear-gradient(to left, white 0%, #777777 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, #222222 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    /*margin-left: 5px;*/
+
+    overflow: hidden;
+
+}
+
+body > .boarder > main > .chapter2 > .contact-row > .contact > h1 {
+    font-size: 1.5vw;
+    padding-bottom: 1rem;
+}
+
+
+body > .boarder > main > .chapter2 > .contact-row > .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10rem;
+
+    font-size: 1vw;
+
+    font-weight: 1000;
+    word-break: break-word;
+    padding-left: 7px;
+
+}
+body > .boarder > main > .chapter2 > .contact-row > .contact>a {
+    color: white;
+}
+
+
+body > .boarder > main > .chapter2 > .row > .column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    padding: 0 0;
+    width: 49%;
+
+}
+
+body > .boarder > main > .chapter2 > .row > .column > .about-me {
+    width: 100%;
+    margin: 0 0;
+    height: 52%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 9px;
+    border-bottom: 3px transparent solid;
+
+    /*to right, black 10%, #333333 100%*/
+    background-image: linear-gradient(135deg, #f73576 0%, #e30b65 100%
+    ), linear-gradient(to left, #111111 0%, #777777 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, black 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+body > .boarder > main > .chapter2 > .row > .column > .skill {
+    width: 100%;
+    height: 48%;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 9px;
+    border-top: transparent 3px solid;
+    /*to left, #fbabb6 0%, #40058d 100%*/
+    /*to right, black 10%, #333333 100%*/
+    background-image: linear-gradient(       135deg, #c2c1f7 0%, #c4ffff 100%
+
+    ), linear-gradient(to left, #111111 0%, #777777 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, #111111 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+body > .boarder > main > .chapter2 > .row > .column span {
+    height: 100%;
+    font-size: 2vw;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+}
+
+body > .boarder > main > .chapter2 > .row > .project {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 2vw;
+    padding-left: 5px;
+    margin-left: 6px;
+    border-radius: 9px;
+    /*to left, black 10%, #333333 100%*/
+
+    background-image: linear-gradient(    135deg, #e942f5 0%, #011121 100%
+    ), linear-gradient(to left, white 0%, #777777 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, #111111 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+body > .boarder > main > .chapter2 > .row {
+
+    display: flex;
+    height: 40%;
+    width: 100%;
+    border-radius: 15px;
+    border: 5px transparent solid;
+
+    cursor: pointer;
+}
+
+
+body > .boarder > main > .first> .before {
+    position: absolute;
+    height: 100%;
+    width: 3%;
+    left: 0;
+    z-index: 99999;
+}
+
+body > .boarder > main > .first > .next {
+    position: absolute;
+    height: 100%;
+    width: 3%;
+    right: 0;
+    z-index: 99999;
+
+}
+
+
+body > .boarder > main > .first >  .before:hover {
+
+    background-image: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, white);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+body > .boarder > main > .first >  .next:hover {
+    background-image: linear-gradient(to left, white 0%, rgba(255, 255, 255, 0));
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+/*     버튼 클릭시 변경되는점*/
+body > .boarder > main > .chapter2.button-click {
+    width: 10%;
+    transition-duration: 1s;
+}
+
+
+.project-click {
+    height: 0;
+    transition-duration: 1s;
+    border-radius: 9px;
+    background-image: linear-gradient(135deg, #e942f5 0%, #011121 100%), linear-gradient(to left, white 0%, #777777 20%, #333333 25%, #111111 40%, #333333 45%, white 50%, #444444 60%, #111111 75%, #222222 85%, #111111 95%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+
+body > .boarder > main > .chapter2.button-click .row > .column > .about-me,
+body > .boarder > main > .chapter2.button-click .row > .column > .skill {
+    height: 34%;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+body > .boarder > main > .chapter2.button-click .row > .column > .project-click {
+    display: block;
+    transition-duration: 1s;
+    transition: 1s;
+    transition-delay: 1s;
+    height: 32%;
+}
+
+
+body > .boarder > main > .chapter.button-click {
+    width: 90%;
+    transition-duration: 1s;
+
+}
+
+body > .boarder > main > .chapter2.button-click .row > .column {
+    width: 100%;
+    transition-duration: 1s;
+
+}
+
+body > .boarder > main > .chapter2.button-click .row > .project > span {
+    display: none;
+}
+
+
+body > .boarder > main > .chapter2.button-click .row > .project {
+    width: 0;
+    transition-duration: 1s;
+    padding: 0;
+    margin: 0;
+
+}
+
+body > .boarder > main > .chapter2.button-click .row span {
+    font-size: 1.5vw;
+    white-space: nowrap;
+    transition-duration: 500ms;
+}
+
+
+@media only screen and (orientation: portrait ) {
+
+    .chapter {
+        display: none;
+    }
+
+    .chapter2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .contact-row {
+        width: 100%;
+    }
+
+    .column {
+        width: 50%
+
+    }
+
+    .project {
+        width: 50%
+    }
+
+    .about-me, .skill, .contact-row {
+        width: 100%;
+    }
+}
+
+/*.hidden{*/
+/*    display: block;*/
+/*    font-size: 2rem;*/
+/*    !*background-color: black;*!*/
+/*    width: 100%;*/
+/*}}*/
+
+
+/*@media only screen and (max-height: 60rem){*/
+/*    .chapter{*/
+/*        display: none;*/
+/*    }*/
+/*    .chapter2{*/
+/*        width: 100%;*/
+/*        height: 100%;*/
+/*    }*/
+/*    .row{width: 100%;*/
+/*    }*/
+/*    .contact-row{*/
+/*        width: 100%;*/
+/*    }*/
+/*    .column{width: 50%*/
+
+/*    }*/
+/*    .project{width: 50%}*/
+
+/*    .about-me,.skill,.contact-row{*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .hidden{*/
+/*        z-index: 100;*/
+/*        display: block;*/
+/*        font-size: 2rem;*/
+/*        !*background-color: black;*!*/
+/*        width: 100%;*/
+/*    }}*/
+

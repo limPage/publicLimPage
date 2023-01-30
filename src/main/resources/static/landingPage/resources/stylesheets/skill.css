@@ -1,0 +1,205 @@
+
+
+body>.boarder>main>.first>.skill-container {
+    display: none;
+    height: 100%;
+    width: 100%;
+
+
+   font-size: 1.5rem;
+
+}
+
+body>.boarder>main>.chapter.clickedSkill >.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 3rem;
+}
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.title {
+    text-decoration: underline;
+    margin: unset;
+    text-align: start;
+    width: 100%;
+    transition-duration: unset;
+padding-bottom: 2rem;
+}
+
+
+
+body>.boarder>main>.first>.skill-container > .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+
+}
+
+
+body>.boarder>main>.first>.skill-container > .content >ul>li>.bar {
+
+
+    background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+    width: 90%;
+    height: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-title-container{
+
+    display: flex;
+    align-items: center;
+   background-image: linear-gradient(to right, #111111, black);
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-title-container>img
+
+{
+    max-width: 3rem;
+    max-height: 3rem;
+    padding: 0.5rem;
+}
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1rem;
+
+ font-family: inherit;
+    font-weight: 600;
+    border-radius: 10px;
+    border: #111111 1px solid;
+    border-right: white 1px solid;
+    border-bottom: #666666 1px solid;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>span{
+    width: 10rem;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.text-box{
+
+    background-image: linear-gradient(to right, #111111, black);
+
+    width: 100%;
+    min-height: 3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius:   0 0 10px 10px;
+
+    white-space: nowrap;
+    font-size: 1.3rem;
+
+}
+
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-power{
+
+    width: 100%;
+    height: 0.5rem;
+    background-color: #a6c0fe;
+
+    /*padding: 1px;*/
+
+}
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-power>.score{
+    height: 100%;
+
+    animation-duration: 3000ms;
+    animation-name: s;
+    background-image: linear-gradient(150deg, #f6213a 0%, #8a01d5 100%);
+    /*background-image: linear-gradient(90deg, #f5a629 0%,  #feef88 35%, white 40%, #feef88 45%, #f5a629 50%  , #221503 60%,  black 65%,#3c2506 75% , #d48723   85% , #f5a629 100% );*/
+    /*background-image: linear-gradient(90deg, #f5a629 0%,  #feef88 35%, white 40%, #feef88 45%, #f5a629 50%  , #221503 60%,  black 65%,#3c2506 75% , #d48723   85% , #f5a629 100% );*/
+/*border-radius: 5px;*/
+    border-radius: 0 5px 5px 0 ;
+    display: block;
+}
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>.skill-power-java>.skill-power>.score{
+    max-width: 75%;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>.skill-power-db>.skill-power>.score{
+    max-width: 75%;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>.skill-power-front>.skill-power>.score{
+    max-width: 80%;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>.skill-power-python>.skill-power>.score{
+    max-width: 50%;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>.skill-power-spring>.skill-power>.score{
+    max-width: 65%;
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-title-container>.spring{
+    flex: 1;
+
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content>.my-skill>li>.skill-title-container>.number{
+    padding-right: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content> .tool-container{
+    margin-left: 7rem;
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px 2px black;
+    width: 30rem;
+    max-width: 30rem;
+    padding: 1rem 1rem 2rem 1rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #222222, black);
+    animation-duration: 3000ms;
+    animation-name : s;
+}
+
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content> .tool-container>.tool-title{
+    margin: unset;
+    padding: unset;
+}
+body>.boarder>.box>.chapter.clickedSkill> .skill-container>.content> .tool-container>span{
+    font-size: 1rem;
+    white-space: nowrap;
+    animation-duration: 1500ms;
+    overflow: hidden;
+    animation-timing-function: linear;
+    animation-name : s;
+    width: 21rem;
+    max-width: 21rem;
+}
+@keyframes s {
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 100%;
+    }
+
+}
+

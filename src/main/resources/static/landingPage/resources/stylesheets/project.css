@@ -1,0 +1,147 @@
+
+
+
+body>.boarder>main>.first>.project-container {
+    display: none;
+    height: 100%;
+    width: 100%;
+
+}
+body> .boarder>main>.first>.project-container>.title{
+   margin: unset;
+    padding-bottom: 5rem;
+    text-decoration: underline;
+}
+
+
+body>.boarder>main>.chapter.clickedProject >.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+body> .boarder>main>.first>.project-container>.content-container{
+
+    height: 100%;
+    width: 90%;
+    overflow-y: scroll;
+    padding-right: 3rem;
+}
+body> .boarder>main>.first>.project-container>.content-container::-webkit-scrollbar-thumb{
+
+    background-image: linear-gradient(to bottom,  #111111 , #777777);
+    border-radius: 0.2rem;
+
+
+}
+body> .boarder>main>.first>.project-container>.content-container::-webkit-scrollbar-button{
+    background-color: white;
+    border-radius: 0.2rem;
+    border: 2px #333333 solid;
+    height: 8px;
+
+
+}
+
+
+body> .boarder>main>.first>.project-container>.content-container::-webkit-scrollbar-track{
+    background-color: black;
+}
+body> .boarder>main>.first>.project-container>.content-container::-webkit-scrollbar{
+    width: 20px;
+}
+
+
+
+body>.boarder>main>.first>.project-container >.content-container> .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+margin-bottom: 2rem;
+    min-height: 6rem;
+    width:100%;
+    background-image: linear-gradient(to right, #111111, black);
+
+
+
+    border-radius: 10px;
+    border: #111111 1px solid;
+    border-right: grey 1px solid;
+    border-bottom: #555555 1px solid;
+
+}
+body> .boarder>main>.first>.project-container>.content-container>.content>img{
+
+    width: 17rem;
+    min-width: 17rem;
+    height: 12rem;
+
+    border-radius: 10px;
+    filter: brightness(90%);
+}
+
+
+
+
+
+
+body>.boarder>main>.first>.project-container >.content-container> .content > .text-box{
+
+    font-size:0.8vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem 1rem 3rem;
+    align-items: flex-start;
+    justify-content: center;
+
+
+
+}
+body>.boarder>main>.first>.project-container >.content-container> .content >.text-box > div{
+    background-image: linear-gradient(135deg, #f6213a 0%, #8a01d5 100%);
+    width: 100%;
+    height: 0.0625rem;
+    margin-bottom: 0.5rem;
+}
+
+
+body>.boarder>main>.first>.project-container >.content-container> .content >.text-box> span{
+
+    width: 100%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    animation: s;
+
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    overflow: hidden;
+}
+
+body>.boarder>main>.first>.project-container >.content-container> .content >.text-box>span> .loading{
+    animation-name: a;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+    display: inline-block;
+    overflow: hidden;
+    width: 0;
+    white-space: nowrap;
+
+}
+@keyframes a {
+
+    from{
+        width: 0;
+    }
+    to{
+        width: 3rem;
+    }
+}

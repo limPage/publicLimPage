@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>임철홍의 페이지입니다</title>
+    <link rel="stylesheet" th:href="@{/landingPage/resources/stylesheets/common.css}">
+    <link rel="stylesheet" th:href="@{/landingPage/resources/stylesheets/aboutMe.css}">
+    <link rel="stylesheet" th:href="@{/landingPage/resources/stylesheets/skill.css}">
+    <link rel="stylesheet" th:href="@{/landingPage/resources/stylesheets/project.css}">
+    <link rel="stylesheet" type="text/css"
+          href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'>
+    <script defer th:src="@{/landingPage/resources/scripts/landingPage.js}"></script>
+
+
+</head>
+<body class="body">
+
+
+<div class="boarder">
+
+
+    <main class="box">
+        <section class="first chapter" rel="chapter1">
+            <!--        홈화면-->
+            <div class="main-container">
+
+                <div class="title">
+
+                    <!--                <h4>System.out.println("hello world");</h4>-->
+                    <h3>반갑습니다!</h3>
+                    <h1>Developer</h1>
+                    <h1>임철홍의 페이지입니다</h1>
+
+
+                </div>
+
+
+            </div>
+            <!--어바웃미-->
+            <div class="about-container">
+                <h2 class="title">About Me</h2>
+                <div class="image-box">
+
+                    <div class="image1 img"></div>
+                    <div class="image2 img"></div>
+                    <div class="image3 img"></div>
+                    <!--                    <span class="spring"></span>-->
+                    <div class="image8 "></div>
+
+
+                </div>
+
+                <div class="content">
+                    <div class="text-box">
+                        <span><h1>서</h1>비스업에 종사하던 지난날,</span>
+                        <div></div>
+                        <span>매일 퇴근 후 '내가 계속 사랑할 수 있는 일은 무엇일까?'를 생각했습니다.</span>
+                        <!--                    <div></div>-->
+                        <span>그리고 저는 취미와 특기였던 창작과 컴퓨터를 활용하여 프로그래밍 공부를 시작하게 되면서</span>
+                        <!--                <div></div>-->
+                        <span>그 동안 몰랐던 저의 가치를 발휘하고 있음을 느낍니다.</span>
+                        <span>갈길이 멀다는 것도 잘 알고 있기에</span>
+                        <!--                <div></div>-->
+                        <span>더욱 변화를 위해 노력하는 모습 보여 드리겠습니다.</span>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="text-box">
+                        <span><h1>Education</h1></span>
+                        <div></div>
+                        <span> python	 22.05.11-07.06</span>
+                        <!--                    <div></div>-->
+                        <span>   java	 22.06.09-08.08</span>
+                        <!--                    <div></div>-->
+                        <span>   sql	22.08.03-08.17</span>
+                        <!--                    <div></div>-->
+                        <span> 임베디드 풀스택 개발자 양성과정 22.08.25-23.2.01</span>
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!--        스킬미-->
+            <div class="skill-container">
+                <h2 class="title">Skill</h2>
+
+                <div class="content">
+
+                    <ul class="my-skill">
+                        <li class="skill-power-java">
+
+                            <div class="skill-title-container">
+                                <img src="/landingPage/resources/images/java.png" alt="java" title="java">
+                                <span>JAVA</span>
+                                <span class="spring"></span>
+                                <span class="number">75</span>
+                            </div>
+
+                            <div class="skill-power">
+                                <div class="score"></div>
+                            </div>
+
+                            <div class="text-box">
+                                <p>클래스 정의, 객체 생성, 생성자, 메소드를 활용한 객제지향 프로그래밍</p>
+                                <p>자료 구조, 제이슨 오브젝트 배열 구조를 이해하고 이를 응용</p>
+                            </div>
+                        </li>
+                        <li class="skill-power-db">
+                            <div class="skill-title-container">
+
+                                <img src="/landingPage/resources/images/mariaDB.png" alt="mariaDB" title="mariaDB">
+                                <img src="/landingPage/resources/images/mysql.png" alt="mySQL" title="mySQL">
+
+                                <span>SQL(mariaDB mySQL)</span>
+                                <span class="spring"></span>
+                                <span class="number">75</span>
+                            </div>
+
+                            <div class="skill-power">
+                                <div class="score"></div>
+                            </div>
+                            <div class="text-box">
+
+                                <p>서버연결 및 사용자 생성, 관계형 데이터 베이스의 CRUD처리 쿼리 사용</p>
+                                <p>기본키 외래키 등의 제약 조건과 JOIN을 통한 데이터 관리</p>
+                            </div>
+
+                        </li>
+                        <li class="skill-power-front">
+                            <div class="skill-title-container">
+
+                                <img src="/landingPage/resources/images/CSS3_logo.jpg" alt="css" title="css">
+                                <img src="/landingPage/resources/images/html5.jpg" alt="html" title="html">
+                                <img src="/landingPage/resources/images/javascript.png" alt="js" title="js">
+
+
+                                <span>CSS,HTML,JS</span>
+                                <span class="spring"></span>
+                                <span class="number">80</span>
+
+                            </div>
+
+
+                            <div class="skill-power">
+                                <div class="score"></div>
+                            </div>
+                            <div class="text-box">
+
+                                <p>사용자 경험과 목표를 충족시켜줄 수 있는 사용자 인터페이스를 중점으로 화면 설계 및 구현</p>
+                            </div>
+
+                        </li>
+
+                        <li class="skill-power-python">
+                            <div class="skill-title-container">
+
+                                <img src="/landingPage/resources/images/vkdlTjs.png" alt="python" title="python">
+
+
+                                <span>PYTHON</span>
+                                <span class="spring"></span>
+                                <span class="number">50</span>
+                            </div>
+
+
+                            <div class="skill-power">
+                                <div class="score"></div>
+                            </div>
+                            <div class="text-box">
+
+                                <p>라이브러리 연결 및 활용 프로그래밍</p>
+                            </div>
+
+                        </li>
+                        <li class="skill-power-spring">
+                            <div class="skill-title-container">
+
+                                <img src="/landingPage/resources/images/springbootlogo.png" alt="springboot"
+                                     title="springboot">
+
+                                <span>SPRING BOOT</span>
+                                <span class="spring"></span>
+                                <span class="number">65</span>
+                            </div>
+
+
+                            <div class="skill-power">
+                                <div class="score"></div>
+                            </div>
+                            <div class="text-box">
+
+                                <p>스프링 부트 개발환경을 구성하여 웹 프로그램을 구현</p>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                    <div class="tool-container">
+
+                        <h3 class="tool-title">Tools</h3>
+                        <span>VScode Eclipse Pycharm Intellij Github</span>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--        프로젝트-->
+            <div class="project-container">
+                <h2 class="title">PROJECT</h2>
+
+
+                <div class="content-container">
+
+                    <div class="content">
+
+                        <img src="/landingPage/resources/images/landingPage.PNG" alt="" title="랜딩페이지">
+
+
+                        <div class="text-box">
+                            <span>No.1 랜딩페이지</span>
+                            <div></div>
+                            <span>첫 프로젝트는 개인으로 만들게된 랜딩페이지 입니다. 스크롤 없이 한 화면에서 전체 내용을 볼 수 있도록 화면 전환으로 정보를 나타내는 형식으로 디자인 하였습니다.
+                            여백의 활용과 큼직한 구성 요소 디자인으로 자연스럽게 중요정보에 시선이 가도록 유도하였습니다. 피보나치 나선,황금나선이라고 불리는 신분증이나 카드에 적용되고 있는 황금비를 참조하여
+                            대략적으로 적용해 보았습니다.
+                            사실상 처음으로 만들어 본 웹 페이지라서 부족한 부분과 서툰 점이 많았던 것 같습니다.
+                        만드는 동시에 전에 몰랐던 점들도 배우게 되는 기회였습니다.</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+
+                        <img src="/landingPage/resources/images/bbqmall.PNG" alt="" title="랜딩페이지">
+
+
+                        <div class="text-box">
+                            <span>No.2 클론페이지 [ BBQ몰 ] </span>
+                            <div></div>
+                            <span>팀 프로젝트로 만들게된 것은 'BBQ몰'의 클론 페이지 입니다. 저의 역할은 회원가입, 로그인, 고객 센터 등의 사용자 관련 서비스였습니다.
+                            클론 대상 선정 단계에서 특정 기능을 제외하고는 충분히 구현할 수 있는 사이트를 목표로 삼아 프로젝트 완성률을 높이는 것을 우선으로 생각했습니다.
+                            클론 과정 속에서 이용자들을 위한 개발자의 숨은 디테일이 많겠구나라는 것을 느꼈습니다.
+                            추가적으로 기존 사이트에서 확인해 볼 수 없는 관리자 상품 관리 모드를 추상하여 구현해 보았습니다.
+
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+
+
+                        <div class="text-box">
+                            <span>The next project will begin<span class="loading">&nbsp;. . .</span></span>
+
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="content">
+
+
+                        <div class="text-box">
+                            <span>The next project will begin<span class="loading">&nbsp;. . .</span></span>
+
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+                    <div class="content">
+
+
+                        <div class="text-box">
+                            <span>The next project will begin<span class="loading">&nbsp;. . .</span></span>
+
+                            <span></span>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="before"></div>
+            <div class="next"></div>
+        </section>
+
+        <section class="chapter2" rel="chapter2">
+
+            <div class="row">
+                <div class="column">
+                    <div class="about-me" id="aboutMeButton">
+                        <span id="AboutMeText">ABOUT ME</span>
+                    </div>
+                    <div class="project-click" id="projectClick">
+                        <span id="projectText"></span>
+                    </div>
+                    <div class="skill" id="skillButton">
+                        <span>SKILL</span>
+
+                    </div>
+                </div>
+                <div class="project" id="projectButton">
+                    <span>PROJECT</span>
+                </div>
+            </div>
+
+            <div class="contact-row">
+                <div class="contact">
+                    <h1>CONTACT</h1>
+
+
+                    <span>Cheol Hong Lim</span>
+                    <span>Tel : 010-6654-1877</span>
+                    <span>Email : jjirong2e@naver.com</span>
+                    <a href="https://github.com/limPage">Github : https://github.com/limPage</a>
+                    <span>Residence : Daegu</span>
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+</div>
+
+
+</body>
+</html>
