@@ -1,5 +1,5 @@
 # LandingPage 1
-첫번째로 만든 랜딩페이지입니다. https://limpage.alllim.dev/로 이동하실 수 있습니다.
+첫번째로 만든 랜딩페이지입니다. https://limpage.alllim.dev/ 로 이동하실 수 있습니다.<br/>
 추후에 반응형을 추가할 예정입니다.<br/>
 이 랜딩페이지1은 추후에 다른 용도로 다시 만들어질 예정입니다.<br/>
 # LandingPage 2
