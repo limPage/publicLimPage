@@ -97,13 +97,11 @@ body>.boarder>main>.first>.about-container > .content >.text-box> span{
 
     width: 100%;
     margin-bottom: 0.5rem;
+
+
 }
 
 
-
-body> .boarder>.box>.first>.about-container>.content>.text-box>h1{
-    display: inline-block;
-}
 body>.boarder>.box>.first>.about-container>.image-box{
 
     width: 100%;
@@ -151,14 +149,14 @@ body>.boarder>.box>.first>.about-container>.image-box>.spring{
 body>.boarder>.box>.first>.about-container>.image-box>.image1{
 
 
-    background-image: url('/landingPage/resources/images/m1r.jpg'),
-    url('/landingPage/resources/images/m2.jpg'),
-    url('/landingPage/resources/images/m8.png'),
-    url('/landingPage/resources/images/m15.jpg'),
+    background-image: url('https://limpage.alllim.dev/landingPage/resources/images/m1r.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m2.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m8.png'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m15.jpg'),
 
-    url('/landingPage/resources/images/m4.jpg');
+    url('https://limpage.alllim.dev/landingPage/resources/images/m4.jpg');
 
-    background-position:0% 0,  29% 0, 50% 0 , 75% 0, 103% 0 ;
+    background-position:0 0,  29% 0, 50% 0 , 75% 0, 103% 0 ;
 
 
 }
@@ -188,10 +186,10 @@ body>.boarder>.box>.first>.about-container>.image-box>.img:hover
 
 
 body>.boarder>.box>.first>.about-container>.image-box>.image2{
-    background-image: url('/landingPage/resources/images/m5.jpg'),
-    url('/landingPage/resources/images/m16.jpg'),
-    url('/landingPage/resources/images/m6.jpg'),
-    url('/landingPage/resources/images/m17.jpg');
+    background-image: url('https://limpage.alllim.dev/landingPage/resources/images/m5.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m16.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m6.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/m17.jpg');
 
     background-position:0 0,  32% 0, 64% 0 ,100% 0;
 
@@ -201,11 +199,11 @@ body>.boarder>.box>.first>.about-container>.image-box>.image2{
 
 body>.boarder>.box>.first>.about-container>.image-box>.image3 {
     background-image:
-    url('/landingPage/resources/images/it1.png'),
-    url('/landingPage/resources/images/it2.png'),
-    url('/landingPage/resources/images/it4.png'),
-    url('/landingPage/resources/images/it6.jpg'),
-    url('/landingPage/resources/images/im.png');
+    url('https://limpage.alllim.dev/landingPage/resources/images/it1.png'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/it2.png'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/it4.png'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/it6.jpg'),
+    url('https://limpage.alllim.dev/landingPage/resources/images/it7.jpg');
 
     background-position:-2% 0,  24% 0, 42% 0 , 68.5% 0, 101% 0 ;
 
@@ -215,7 +213,7 @@ body>.boarder>.box>.first>.about-container>.image-box>.image3 {
 
 body>.boarder>.box>.first>.about-container>.image-box>.image8 {
 
-    background-image: url('/landingPage/resources/images/my3.jpg');
+    background-image: url('https://limpage.alllim.dev/landingPage/resources/images/my3.jpg');
     background-size: cover;
     background-position: -1.5rem 0;
 
@@ -235,7 +233,7 @@ body>.boarder>.box>.first>.about-container>.image-box>.image8 {
 body>.boarder>.box>.first>.about-container>.image-box>.image8:hover {
 
     filter: brightness(90%);
-    background-image: url('/landingPage/resources/images/me.jpg');
+    background-image: url('https://limpage.alllim.dev/landingPage/resources/images/me.jpg');
     background-position: 0 0;
     background-size:  cover;
     box-shadow: 0 0 3px 3px white;
